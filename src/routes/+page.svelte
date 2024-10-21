@@ -64,6 +64,7 @@
         duration = 60 * 25;
         _break = false;
         paused = false;
+        breakCount = 0
         clearInterval(interval);
         startTimer();
       }}>Start</button
