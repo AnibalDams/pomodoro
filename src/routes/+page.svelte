@@ -63,6 +63,7 @@
       on:click={() => {
         duration = 60 * 25;
         _break = false;
+        paused = false;
         clearInterval(interval);
         startTimer();
       }}>Start</button
